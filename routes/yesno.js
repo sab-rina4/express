@@ -3,7 +3,7 @@ var router = express.Router();
 const request = require('request');
 
 router.get('/', async (req, res) => {
-request('https://yesno.wtf/api/v1/images/serch', function (error, response, body) {
+request('https://yesno.wtf/api', function (error, response, body) {
 if (!error && response.statusCode == 200) {
 const data = JSON.parse(body);
 res.json(data);
