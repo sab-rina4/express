@@ -10,7 +10,7 @@ var helloRouter = require('./routes/hello');
 var notesRouter = require('./routes/notes'); 
 var catRouter = require('./routes/cat');
 var yesnoRouter = require('./routes/yesno');
-var notes_from_bRouter = require('./routes/notrs_from_b');
+var notes_from_bRouter = require('./routes/notes_from_b');
 
 var app = express();
 
